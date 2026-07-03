@@ -1,6 +1,6 @@
 ### Hi, I'm Gaëtan 👋
 
-Systems &amp; network administration student in Belgium, focused on **defensive security**, homelab infrastructure, and AI tooling.
+Systems & network administration student in Belgium, focused on **defensive security**, homelab infrastructure, and AI tooling.
 
 ## 🛡️ MCP Shield
 
@@ -13,12 +13,10 @@ Systems &amp; network administration student in Belgium, focused on **defensive 
 
 ## 🔎 Responsible disclosures
 
-Security issues I reported to real-world MCP projects (discovered with MCP Shield):
+Vulnerabilities I found with MCP Shield and reported to real-world MCP projects:
 
 | Project | Finding |
 | --- | --- |
-| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/1811) | Telemetry enabled by default without explicit opt-in |
-| [makenotion/notion-mcp-server](https://github.com/makenotion/notion-mcp-server/issues/254) | Auth token passed as CLI argument, visible in the process list (CWE-214) |
 | [QuantGeekDev/docker-mcp](https://github.com/QuantGeekDev/docker-mcp/issues/19) | Command injection via `shell=True` on unsanitized input |
 | [0xKoda/WireMCP](https://github.com/0xKoda/WireMCP/issues/16) | Command injection via unsanitized `exec()` parameters |
 | [gilby125/mcp-proxmox](https://github.com/gilby125/mcp-proxmox/issues/6) | TLS certificate verification disabled by default |
